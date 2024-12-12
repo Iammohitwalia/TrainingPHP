@@ -4,4 +4,5 @@ echo "hello world <br>";
 echo "how are you?<br>";
 //addec comment
 //addec comment
+echo "my car color is black"
 ?>
