@@ -6,4 +6,5 @@ echo "how are you?<br>";
 //added comment
 echo "my car color is black"
 print "what are you doing"
+//echo or print both are using for showing output
 ?>
