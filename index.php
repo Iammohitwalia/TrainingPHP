@@ -4,7 +4,7 @@ echo "hello world <br>";
 echo "how are you?<br>";
 //added comment
 //added comment
-echo "my car color is black"
-print "what are you doing"
-//echo or print both are using for showing output
+echo "my car color is black <br>";
+echo "what are you doing";
+//comments here
 ?>
