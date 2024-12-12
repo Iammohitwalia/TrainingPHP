@@ -5,6 +5,5 @@ echo "how are you?<br>";
 //added comment
 //added comment
 echo "my car color is black"
-$color= "black";
-echo "my car is" . $color . "<br>"; 
+print "what are you doing"
 ?>
