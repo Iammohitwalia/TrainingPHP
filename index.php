@@ -1,5 +1,5 @@
 <?php
-echo "hello welcome to my first php page"
-echo "hello world"
-echo "how are you?"
+echo "hello welcome to my first php page <br>";
+echo "hello world <br>";
+echo "how are you?<br>";
 ?>
