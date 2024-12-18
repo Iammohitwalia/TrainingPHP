@@ -37,6 +37,7 @@ $bol="false";
 echo "$bool"."$bol";
 
 //Null Datatype
+$xy=50;
 $xy=null;
 echo "$xy";
 ?>
