@@ -39,5 +39,21 @@ echo "$bool"."$bol";
 //Null Datatype
 $xy=50;
 $xy=null;
-echo "$xy";
+echo "$xy <br>";
+?>
+
+<?php
+$var="hello world";
+echo "$var";
+$Var=123;
+echo "$Var";
+$float=123.5644;
+echo "$float";
+$boolean="true";
+$boolea="false";
+echo "$boolea";
+echo "$boolean";
+$null=30;
+$null="NULL";
+echo "$null";
 ?>
