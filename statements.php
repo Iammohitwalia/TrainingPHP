@@ -1,4 +1,4 @@
-<?php
+pp0=<?php
 
 //if statement
 $x =  22;
@@ -78,5 +78,5 @@ elseif(200<500){
  else {
  echo "Hello pretty girl";
  }
-
+ 
 ?>

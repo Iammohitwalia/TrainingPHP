@@ -171,4 +171,33 @@ var_dump($x <=> $y);
 $x =220;
 $y = 220;
 var_dump($x <=> $y);
+
+
+ //Assignment Operators
+
+//Addition
+ $x = 25;
+ $x += 10;
+ echo $x ."<br>";
+
+//Subtraction
+ $x = 25;
+ $x -= 10;
+ echo $x ."<br>"; 
+
+ //Multiplication
+ $x = 25;
+ $x *= 10;
+ echo $x ."<br>";
+
+ //Divide
+ $x = 25;
+ $x /= 10;
+ echo $x ."<br>"; 
+ 
+ //Modulus
+ $x = 25;
+ $x %= 10;
+ echo $x ."<br>";
+ 
 ?>
