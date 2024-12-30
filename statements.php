@@ -10,13 +10,13 @@ echo "How are you? <br>";
 $x =70;
 $y =90;
 if($x > $y){
-    echo "what are you doing?<br>";
+    echo "What are you doing?<br>";
 }
 
 $x =70;
 $y =80;
 if($x = $y){
-    echo "what are you doing?<br>";
+    echo "What are you doing?<br>";
 }
 
 // if...else
@@ -62,7 +62,7 @@ elseif(200>500){
     echo "Heloo <br>";
 }
 elseif(200>500){
-    echo "Hello world";
+    echo "Hello everyone";
 }
  else {
  echo "Hello pretty girl <br>";
