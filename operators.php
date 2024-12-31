@@ -200,4 +200,15 @@ var_dump($x <=> $y);
  $x %= 10;
  echo $x ."<br>";
  
+ //Concatenation 
+$x = "Hello";
+$x .= "World";
+echo $x . "<br>";
+
+//Expontiation 
+$x = 2;
+$x **= 4;
+echo $x;
+
+
 ?>
