@@ -14,7 +14,7 @@ echo $fruits[2];
 
 //Associative Array
 
-$person = ["name"=> "Cherry" ,"age" => "28", "city" => "Newyork"];
+$person = ["name"=> "Cherry" ,"age" => 28, "city" => "Newyork"];
 echo $person["city"];
 
 $car = array("brand" => "Ford", "model" => "Mustang", "year" => 1964 , "city" => "canada");
@@ -37,5 +37,12 @@ $students =array(
     array("Shyam",13,"D","Sanskrit"),
 );
 echo $students [3][3];
+
+$matrix = [
+    [1 , 2 ,3],
+    [4 , 5 ,6],
+    [7 , 8 ,9],
+];
+echo $matrix [2][2];
 
 ?>
