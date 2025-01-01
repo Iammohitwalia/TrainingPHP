@@ -4,21 +4,25 @@
 
 $color = array("Red","Blue","Green","Black");
 echo $color [0];
-
+echo "<br>";
 $car = array("Alto","BMW","Audi","Thar","Scorpio");
 echo $car[3];
+echo "<br>";
 
 $fruits = array("Apple","Kiwi","Pinapple","Mango");
 echo $fruits[2];
+echo "<br>";
 
 
 //Associative Array
 
 $person = ["name"=> "Cherry" ,"age" => 28, "city" => "Newyork"];
 echo $person["city"];
+echo "<br>";
 
 $car = array("brand" => "Ford", "model" => "Mustang", "year" => 1964 , "city" => "canada");
 echo $car ["model"];
+echo "<br>";
 
 
 //Multidimensional Array
@@ -29,14 +33,16 @@ $student = array(
    array("Doe", 35, "C"),
 );
 echo $student [1][0];
+echo "<br>";
 
-$students =array(
-    array("Rohan",10,"A","English"),
-    array("Mohan",11 ,"B","Hindi"),
-    array("Ram",12,"C","Science"),
-    array("Shyam",13,"D","Sanskrit"),
-);
-echo $students [3][3];
+    $person = array(
+    "John" => array("age" => 25, "grade" => "A"),
+    "Jane" => array("age" => 30, "grade" => "B"),
+    "Doe" => array("age" => 22, "grade" => "C")
+    );
+    
+    echo $person["Jane"]["age"];
+    echo "<br>";
 
 $matrix = [
     [1 , 2 ,3],
@@ -44,5 +50,6 @@ $matrix = [
     [7 , 8 ,9],
 ];
 echo $matrix [2][2];
+echo "<br>";
 
 ?>
