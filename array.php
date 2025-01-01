@@ -45,6 +45,22 @@ echo "<br>";
     echo $person["Ram"]["subject"];
     echo "<br>";
 
+    $students = array(
+        "Aarav" => array("age" => 20,"rollno."=> 01,"Division"=> "First"),
+        "sourabh" =>array ("age" => 18,"rollno."=> 02,"Division"=> "second"),
+        "avinash" =>array ("age" => 20,"rollno."=> 03,"Division"=> "third"),
+        "lovely" => array("age" => 17,"rollno."=> 04,"Division"=> "fourth"),
+        "samriti" =>array ("age" => 21,"rollno."=> 05,"Division"=> "fifth"),
+        "divisha" => array("age" => 20,"rollno."=> 06,"Division"=> "sixth"),
+        "sharanya" => array("age" => 15,"rollno."=> 07,"Division"=> "seventh")
+    );
+echo $students["sharanya"]["Division"];
+echo "<br>";
+echo $students["divisha"]["rollno."];
+echo "<br>";
+echo $students["sourabh"]["age"];
+echo"<br>";
+
 $matrix = [
     [1 , 2 ,3],
     [4 , 5 ,6],
