@@ -30,7 +30,7 @@ echo "<br>";
 $student = array(
    array ("John", 25,"A"),
    array("Jane", 30,"B"),
-   array("Doe", 35, "C"),
+   array("Doe", 35, "C")
 );
 echo $student [1][0];
 echo "<br>";
@@ -38,16 +38,17 @@ echo "<br>";
     $person = array(
     "John" => array("age" => 25, "grade" => "A"),
     "Jane" => array("age" => 30, "grade" => "B"),
-    "Doe" => array("age" => 22, "grade" => "C")
+    "Doe" => array("age" => 22, "grade" => "C"),
+    "Ram" => array("age" => 28, "grade" =>"D", "subject" => "English")
     );
     
-    echo $person["Jane"]["age"];
+    echo $person["Ram"]["subject"];
     echo "<br>";
 
 $matrix = [
     [1 , 2 ,3],
     [4 , 5 ,6],
-    [7 , 8 ,9],
+    [7 , 8 ,9]
 ];
 echo $matrix [2][2];
 echo "<br>";
