@@ -58,15 +58,28 @@ echo $students["sharanya"]["Division"];
 echo "<br>";
 echo $students["divisha"]["rollno."];
 echo "<br>";
-echo $students["sourabh"]["age"];
+echo 
+$students["sourabh"]["age"];
 echo"<br>";
 
 $matrix = [
-    [1 , 2 ,3],
-    [4 , 5 ,6],
-    [7 , 8 ,9]
+    [1 ,2 ,3,4,5],
+    [6 ,7,8,9,10],
+    [11,12,13,14],
 ];
 echo $matrix [2][2];
 echo "<br>";
+
+$employes =[
+    "employe"=>["age"=>20, "division"=>"first" ,"salary"=> "10k"],
+    "employe1"=>["age"=>20, "division"=>"second", "salary"=> "20k"],
+    "employe2"=>["age"=>20, "division"=>"third" ,"salary"=> "30k"],
+
+];
+
+echo $employes ["employe2"]["salary"];
+
+
+
 
 ?>
