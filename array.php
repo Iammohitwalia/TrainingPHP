@@ -78,8 +78,25 @@ $employes =[
 ];
 
 echo $employes ["employe2"]["salary"];
-
-
-
-
+echo "<br>";
+$students =[
+    "student" =>["class"=>6,"rollno."=>01,"section"=>"A", "marks"=>"70%"],
+    "student1" => ["class"=>7,"rollno."=>45,"section"=>"B", "marks"=>60],
+    "student2" => ["class"=>8,"rollno."=>21,"section"=>"C", "marks"=>65],
+    "student3" => ["class"=>9,"rollno."=>11,"section"=>"B", "marks"=>66],
+    "student4" => ["class"=>10,"rollno."=>41,"section"=>"D", "marks"=>72],
+    "student5" => ["class"=>11,"rollno."=>20,"section"=>"E", "marks"=>75],
+    "student6" => ["class"=>12,"rollno."=>10,"section"=>"A", "marks"=>80],
+    "student7" => ["class"=>8,"rollno."=>23,"section"=>"B", "marks"=>82],
+    "student8" => ["class"=>5,"rollno."=>26,"section"=>"C", "marks"=>84],
+    "student9" => ["class"=>6,"rollno."=>37,"section"=>"C", "marks"=>85],
+    "student10" => ["class"=>9,"rollno."=>30,"section"=>"A", "marks"=>77]
+];
+echo $students["student7"]["class"];
+echo "<br>";
+echo $students["student4"]["marks"];
+echo "<br>";
+echo $students["student10"]["rollno."];
+echo "<br>";
+echo $students["student7"]["section"] ;
 ?>
