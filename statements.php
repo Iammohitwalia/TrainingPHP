@@ -1,4 +1,4 @@
-pp0=<?php
+<?php
 
 //if statement
 $x =  22;
@@ -41,8 +41,15 @@ if (500<=400){
  }
  else
  {
-    echo"Oh wow thats great<br>";
+    echo"Oh wow thats great <br>";
  }
+ if(500 > 700){
+    echo "HELLO <br>";
+}
+    else{
+        echo "LESS THAN <br>";
+    }
+ 
     
 //if...elseif...else
 
