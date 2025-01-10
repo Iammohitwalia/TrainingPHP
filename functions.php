@@ -49,4 +49,37 @@ function argu($fname, $lname, $age){
       setHigh(); // will use the default value of 50
       setHigh(345);
       setHigh(290);
+
+function sum($x, $y){
+echo $x % $y;
+}
+echo "<br>".
+sum(45,65);
+echo "<br>".
+sum(76,85);
+echo "<br>".
+sum(94,74);
+echo "<br>".
+sum(20,55);
+echo "<br>".
+sum(25,95);
+
+function add(&$value){
+    $value *= 89;
+}
+$num = 89;
+
+add($num);
+echo $num;
+echo "<br>";    
+
+
+function familyname($name , $year , $lname){
+    echo "$name $lname Born in $year  <br>";
+}
+familyname("Isha", "2000" , "Malviya");
+familyname("Divyanshi" , "1999" , "Gupta");
+familyname("Evaa" , "1996" , "Thakur");
+familyname("Pearl" , "1997" , "Puri");
+
 ?>

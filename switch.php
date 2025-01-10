@@ -72,7 +72,7 @@ echo "I Dont know the Day!!!";
 
 //5
 $m = 01;
-switch($m) {
+switch($m)  {
 default:
 echo "I know the month is January";
 break;
@@ -89,5 +89,23 @@ case 01:
 echo "January";
 case 03:
 echo "March";
+}
+echo "<br>";
+
+$d = 6;
+switch ($d) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:  
+    echo "The weeks feels so long!";
+    break;
+  case 6:
+  case 0:
+    echo "Weekends are the best!";
+    break;
+  default:
+    echo "Something went wrong";
 }
 ?>
