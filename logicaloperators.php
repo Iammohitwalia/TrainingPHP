@@ -94,6 +94,23 @@ if ($x == 100 xor $y == 80) {
     echo "Hellooo!!!";
 }
 
+$a = true;
+$b = false;
+
+$result = $a xor $b;
+var_dump($result);
+
+$a = true;
+$b = false;
+
+$result = $a xor $b;
+var_dump($result);
+$a = false;
+$b = false;
+
+$result = $a xor $b; 
+var_dump($result);
+
 //string operators
 //concatenation 
 
