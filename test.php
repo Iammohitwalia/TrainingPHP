@@ -35,6 +35,13 @@ else{
 }
 echo "<br>";
 
+//correct answer
+function checkEvenOdd($num){
+    return ($num % 2 == 0) ? "Even" : "Odd";
+}
+echo checkEvenOdd (11);
+echo "<br>";
+
 //13Print numbers
 for($i=1; $i<=10; $i++){
 echo "The no. is : $i <br>";
@@ -54,6 +61,11 @@ echo "$z";
 }
 
 myfunction();
+echo "<br>";
 
-
+//correct answer
+function reversestring($str){
+    return strrev($str);
+}
+echo reversestring("Hello World");
 ?>

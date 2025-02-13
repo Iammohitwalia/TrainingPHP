@@ -1,4 +1,4 @@
-<?php
+<?php 
 function myMessage() {
     echo "Hello world! <br>";
     echo "Function is a set of rules";
@@ -82,4 +82,179 @@ familyname("Divyanshi" , "1999" , "Gupta");
 familyname("Evaa" , "1996" , "Thakur");
 familyname("Pearl" , "1997" , "Puri");
 
+$String = "Hello World";
+$reversedStr = strrev($String); 
+echo $reversedStr;
+echo "<br>";
+
+function readd($a, $b){
+   return $a + $b;
+}
+$result = readd(798765 , 13456780);
+echo $result;
+echo "<br>";
+
+function addfive(&$num){
+    $num += 6;
+}
+$value = 20;
+addfive($value);
+echo $value;
+echo "<br>";
+
+function summ(...$number){
+    return array_sum($number);
+}
+echo summ(1,2,3,4,5,6);
+echo "<br>";
+
+$greet = function($name){
+    return"Hello, $name!";
+};
+echo $greet("Alice");
+echo "<br>";
+
+$multiply = fn($a, $b) => $a * $b;
+echo $multiply(3, 4);
+echo "<br>";
+
+function factorial($n){
+    if ($n == 0)return 1;
+    return $n * factorial($n - 1);
+}
+echo factorial(5);
+echo "<br>";
+function greet($name = "Guest"){
+    echo "Hello, $name!";
+}
+greet();
+echo "<br>";
+
+function greeet($name){
+    echo "Hello, $name!";
+}
+greeet ("John");
+echo "<br>";
+
+function greets() {
+    echo "Hello, World!";
+}
+greets();
+echo "<br>";
+
+function getuser() {
+    return ["name" => "John", "age" => 30];
+}
+
+$user = getuser();
+echo $user['name'];
+echo "<br>";
+
+function checknumber($num) {
+if ($num < 0) {
+    return "Negative Number";
+}
+return "Positive Number";
+}
+
+echo checknumber(-2);
+echo "<br>";
+
+function iseven($num) {
+    return $num % 2 == 0;
+}
+
+if (iseven(11)) {
+    echo "Even number";
+}
+else {
+    echo "Odd number";
+}
+echo "<br>";
+
+function multiplier($factor) {
+    return function($number) use ($factor){
+        return $number * $factor;
+    };
+}
+
+//usage 
+$double = multiplier(2);
+$triple = multiplier(3);
+
+echo $double(5) , " ";
+echo $triple(5);
+echo "<br>";
+
+function ssum($x, $y){
+$z = $x + $y;
+return $z;
+}
+
+echo "5 + 10 = " . ssum(5, 10) . "<br>";
+echo "7 + 13 = " . ssum(7, 13) . "<br>";
+echo "2 + 4 = " . ssum(2, 4) . "<br>";
+
+function summynumber(...$x) {
+    $n = 0;
+    $len = count($x);
+    for($i = 0; $i < $len; $i++) {
+        $n += $x[$i];
+    }
+    return $n;
+}
+ $a = summynumber(5,3,6,7,89,3,4,33);
+ echo $a;
+ echo "<br>";
+
+ function myfamily($lastname, ...$firstname) {
+    $txt = "";
+    $len = count($firstname);
+    for($i = 0; $i < $len; $i++) {
+        $txt = $txt. "Hi, $firstname[$i] $lastname. <br>";
+    }
+    return $txt;
+ }
+
+ $a = myfamily("Doe", "Jane", "John", "Joey");
+ echo $a;
+
+ function addnumbers(int $a, int $b) {
+    return $a + $b;
+ }
+ echo addnumbers(5, 10 );
+
+ function geet($name) {
+    return "Hello, $name!";
+ }
+
+ echo geet("Alice"). "<br>";
+ echo geet("Bob"). "<br>";
+ echo geet("Charlie"). "<b>";
+echo "<br>";
+
+ function square($num) {
+    return $num * $num;
+ }
+
+ for ($i = 1; $i <= 5; $i++) {
+    echo "Square of $i is " . square($i) . "<br>";
+ }
+
+ function factoriall($n) {
+if ($n == 0) return 1;
+return $n * factoriall($n - 1);
+
+ }
+ echo factoriall(5);
+ echo "<br>";
+
+ function doublee($n) {
+    return $n * 2;
+ }
+
+ $number = [1,2,3,4];
+ $doublee = array_map('doublee', $number);
+print_r($doublee);
 ?>
+
