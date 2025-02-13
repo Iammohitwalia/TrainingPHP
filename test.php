@@ -25,7 +25,7 @@ echo  $x;
 echo "<br>";
 
 //12 odd or even no
-
+//Comment one - Create inside the function.
 $a = 26;
 if($a%2==0){
     echo "no is even";
@@ -54,7 +54,7 @@ foreach ($color as $x)
 echo $x . "<br>";
 
 
-//15 function
+//15 function - Not completed
 function myfunction(){
 $z = "123";
 echo "$z";
