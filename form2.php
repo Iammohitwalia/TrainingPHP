@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $address = ($_POST["address"]);
 }
 ?>
-<form action="" method="POST" target="_self">
+<form action="" method="POST">
   <input type="text" placeholder="First Name" name="name" id="name"><br><br>
   <input type="text" placeholder="Last Name" name="last-name" id="name" ><br><br>
 <input type="email" placeholder="Email" name="email" id="email"><br><br>
