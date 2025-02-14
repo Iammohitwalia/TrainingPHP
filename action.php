@@ -7,7 +7,7 @@ table, th, td {
 </style>
 <body>
 
-<h2>Hello,Eveyone <?php echo $_POST['first-name'];  ?></h2>
+<h2>Hello,Everyone <?php echo $_POST["name"];  ?><h2>
 
 <table style="width:50%">
   <tr>
@@ -16,23 +16,7 @@ table, th, td {
     <th>Email</th>
     <th>Address</th>
   </tr>
-  <tr>
-  <td> Jagriti </td>
-  <td> Thakur </td> 
-  <td> abc@gmail.com </td> 
-  <td> Sundernagar </td>
-  </tr>
-  <tr>
-  <td> Vasudha </td>
-  <td> chauhan </td> 
-  <td> xyz@gmail.com </td> 
-  <td> Mandi </td>
-  </tr>
-  <td> Jahnvi </td>
-  <td>Mittal  </td> 
-  <td> pqr@gmail.com </td> 
-  <td> Bilaspur </td>
-  </tr>
+  
 </body>
 </html>
 
