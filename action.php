@@ -7,8 +7,7 @@ table, th, td {
 </style>
 <body>
 
-<h2>Hello,Everyone <?php echo $_POST["name"];  ?><h2>
-
+<h2>Hello,Everyone </h2>
 <table style="width:50%">
   <tr>
     <th>First Name</th>
@@ -16,7 +15,12 @@ table, th, td {
     <th>Email</th>
     <th>Address</th>
   </tr>
-  
+  <tr>
+    <th>Rohit</th>
+    <th>Sharma</th>
+    <th>rohit@gmail.com</th>
+    <th>Dehli</th>
+  </tr>
 </body>
 </html>
 
