@@ -16,10 +16,10 @@ table, th, td {
     <th>Address</th>
   </tr>
   <tr>
-    <th>Rohit</th>
-    <th>Sharma</th>
-    <th>rohit@gmail.com</th>
-    <th>Dehli</th>
+    <td>Rohit</td>
+    <td>Sharma</td>
+    <td>rohit@gmail.com</td>
+    <td>Dehli</td>
   </tr>
 </body>
 </html>
