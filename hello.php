@@ -1,21 +1,21 @@
 <form action="" method="post">
-    <lable for ="name">Name:</lable><br>
-    <input type="text" name ="name" required><br>
+    <lable for="name">Name:</lable><br>
+    <input type="text" name="name" />
 
-    <lable for ="LastName">Last Name:</lable><br>
+    <lable for="LastName">Last Name:</lable><br>
     <input type="text" name="lname"><br>
 
     <label for="email">Email:</label><br>
-    <input type="email" name="email" require><br>
+    <input type="email" name="email" required="true"><br>
 
     <lable for="age">Age:</lable><br>
-    <input type="number" name="age" required><br><br>
+    <input type="number" name="age"><br><br>
 
     <button type="submit">Submit</button>
 
 </form>
 <?php
-if ($_SERVER["REQUEST_METHOD"]== "POST"){
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $name = ($_POST['name']);
     $lname = ($_POST['lname']);
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
        <td>$age</td>
 </tr>
     </table>";
-}else{
+} else {
     echo "Something Wrong.";
 }
 ?>
