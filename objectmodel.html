@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model</title>
+    <style>
+        #clickBtn {
+        color: aqua; 
+        background-color: blue; 
+        font-size: 15px; 
+        font-family: cursive; 
+        border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="name"></div>
+            <div id="email"></div>
+            <div id="phone"></div>
+            <div id="address"></div>
+        </div>
+        <button onclick="functioname();" id="clickBtn">Click One</button>
+        <button onclick="getname();" id="clickBtn">Click Two</button>
+        <button onclick="getemail();" id="clickBtn">Click Three</button>
+        <button onclick="getphone();" id="clickBtn">Click Four</button>
+        <button onclick="getaddress();" id="clickBtn">Click Five</button>
+
+</body>
+<script>
+    var name = "Rajani Thakur";
+    var email = "rajanithakur416@gmail.com";
+    var phone = 1234567890;
+    var address = "SunderNagar";
+    function functioname() {
+        document.getElementById('name').innerHTML = name;
+        document.getElementById('email').innerHTML = email;
+        document.getElementById('phone').innerHTML = phone;
+        document.getElementById('address').innerHTML = address;
+        document.getElementById('name').style.background = "yellow";
+        document.getElementById('name').style.color = "blue";
+        document.getElementById('email').style.background = "yellow";
+        document.getElementById('email').style.color = "blue";
+        document.getElementById('phone').style.background = "yellow";       
+         document.getElementById('phone').style.color = "blue";
+        document.getElementById('address').style.background = "yellow";
+        document.getElementById('address').style.color = "blue";
+
+    }
+    function getname() {
+        document.getElementById('name').innerHTML = name;
+        document.getElementById('name').style.background = "purple";
+        document.getElementById('name').style.color = "white";
+
+    }
+    function getemail() {
+        document.getElementById('email').innerHTML = email;
+        document.getElementById('email').style.background = "grey";
+        document.getElementById('email').style.color = "white";
+    }
+    function getphone() {
+        document.getElementById('phone').innerHTML = phone;
+        document.getElementById('phone').style.background = "green";
+        document.getElementById('phone').style.color = "white";
+    }
+    function getaddress() {
+        document.getElementById('address').innerHTML = address;
+        document.getElementById('address').style.background = "orange";
+        document.getElementById('address').style.color = "black";
+    }
+</script>
+
+</html>
