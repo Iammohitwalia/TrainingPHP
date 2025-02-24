@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <div class="row">
@@ -28,7 +26,6 @@
         <button onclick="getemail();" id="clickBtn">Click Three</button>
         <button onclick="getphone();" id="clickBtn">Click Four</button>
         <button onclick="getaddress();" id="clickBtn">Click Five</button>
-
 </body>
 <script>
     var name = "Rajani Thakur";
@@ -48,22 +45,20 @@
         document.getElementById('email').style.fontFamily = "cursive";
         document.getElementById('phone').style.background = "yellow";       
         document.getElementById('phone').style.color = "green";
-        document.getElementById('phone').style.fontFamily = "fantasy";
+        document.getElementById('phone').style.fontFamily = "monospace";
         document.getElementById('address').style.background = "yellow";
         document.getElementById('address').style.color = "purple";
         document.getElementById('address').style.fontFamily = "cursive";
-
     }
     function getname() {
         document.getElementById('name').innerHTML = name;
         document.getElementById('name').style.background = "purple";
         document.getElementById('name').style.color = "white";
         document.getElementById('name').style.fontFamily = "monospace";
-
     }
     function getemail() {
         document.getElementById('email').innerHTML = email;
-        document.getElementById('email').style.background = "grey";
+        document.getElementById('email').style.background = "red";
         document.getElementById('email').style.color = "white";
         document.getElementById('email').style.fontFamily = "cursive";
     }
