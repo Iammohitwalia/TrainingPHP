@@ -25,7 +25,11 @@
         <button onclick="getname();" id="clickBtn">Click Two</button>
         <button onclick="getemail();" id="clickBtn">Click Three</button>
         <button onclick="getphone();" id="clickBtn">Click Four</button>
-        <button onclick="getaddress();" id="clickBtn">Click Five</button>
+        <button onclick="getaddress();" id="clickBtn">Click Five</button><br>
+        <button class="btns" onmouseover="getname();" onclick="getaddress();" id="clickBtn">Click here</button>
+        <button class="btns" onmouseleave="getphone();" onclick="getname();" id="clickBtn">Click here</button>
+        <button class="btns" onmouseenter="getemail();" onclick="getphone();" id="clickBtn">Click here</button>
+        <button class="btns" onmousemove="getaddress();" onclick="getemail();" id="clickBtn">Click here</button>
 </body>
 <script>
     var name = "Rajani Thakur";

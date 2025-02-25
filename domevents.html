@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Events</title>
+    <style>
+        #clickBtn,.btns {
+        color: white;
+        background-color: green;
+        font-size: 15px; 
+        font-family: cursive; 
+        border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>DOM Events</h1>
+    <form action="">
+        <label for="uname">Username</label><br>
+        <input type="text" id="uname" onkeypress="keypress()"><br>
+        <label for="uname">Lastname</label><br>
+        <input type="text" id="lname" onfocus="myfocus()"><br>
+        <label for="pwd">Password</label><br>
+        <input type="text" id="key" onkeyup="keyup()"><br>
+        <label for="number">Address</label><br>
+        <input type="text" id="myInput" oninput="getinput()"><br>
+        <p id="para"></p>
+        <p id="para1">Select a language</p>
+        <select id="mySelect" onchange="getchange()">
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="French">French</option>
+            <option value="Spanish">Spanish</option>
+        </select>
+    </form>
+    <!--html events-->
+    <button class="btns" onmouseover="getname();" onclick="getaddress();" id="clickBtn">Click Here</button>
+    <button class="btns" onmouseleave="getphone();" onclick="getname();" id="clickBtn">Click Me</button>
+    <button class="btns" onmouseenter="getemail();" onclick="getphone();" id="clickBtn">Click Now</button>
+    <button class="btns" onmousemove="getaddress();" onclick="getemail();" id="clickBtn">Click Here</button>
+    <button class="btns" id="clickSix">Click Here</button>
+    <button class="btns" id="clicks">ClickHere Too</button>
+    <div class="container">
+        <div class="row">
+            <div id="name"></div>
+            <div id="email"></div>
+            <div id="phone"></div>
+            <div id="address"></div>
+        </div>
+</body>
+<script>
+    function getinput() {
+        let text = document.getElementById("myInput").value;
+        document.getElementById("para").innerHTML = "You wrote: " + text;
+    }
+    function keyup() {
+        let x = document.getElementById('key');
+        x.value = x.value.toUpperCase();
+        document.getElementById("key").style.backgroundColor = "green";
+        document.getElementById("key").style.color = "white";
+
+    }
+    function keypress() {
+        alert("You enter a text into username field.");
+    }
+    function getchange() {
+        var x = document.getElementById("mySelect").value;
+        document.getElementById("para1").innerHTML = "You selected: " + x;
+    }
+    function myfocus() {
+        document.getElementById("lname").style.backgroundColor = "orange";
+        document.getElementById("lname").style.color = "green";
+
+    }
+//define variable
+    var name = "Rajani Thakur";
+    var email = "rajanithakur416@gmail.com";
+    var phone = 1234567890;
+    var address = "SunderNagar";
+
+    //functions
+    function functioname() {
+        document.getElementById('name').innerHTML = name;
+        document.getElementById('email').innerHTML = email;
+        document.getElementById('phone').innerHTML = phone;
+        document.getElementById('address').innerHTML = address;}
+
+    function getname() {
+        document.getElementById('name').innerHTML = name;
+        document.getElementById('name').style.background = "purple";
+        document.getElementById('name').style.color = "white";
+        document.getElementById('name').style.fontFamily = "monospace";
+    }
+    function getemail() {
+        document.getElementById('email').innerHTML = email;
+        document.getElementById('email').style.background = "red";
+        document.getElementById('email').style.color = "white";
+        document.getElementById('email').style.fontFamily = "cursive";
+    }
+    function getphone() {
+        document.getElementById('phone').innerHTML = phone;
+        document.getElementById('phone').style.background = "yellow";
+        document.getElementById('phone').style.fontFamily = "fantasy";
+    }
+    function getaddress() {
+        document.getElementById('address').innerHTML = address;
+        document.getElementById('address').style.background = "orange";
+        document.getElementById('address').style.color = "black";
+        document.getElementById('address').style.fontFamily = "cursive";
+    }
+//event listners
+const btn1 = document.getElementById('clickSix');
+const btn2 = document.getElementById('clicks');
+
+btn1.addEventListener('mouseover', getphone);
+btn2.addEventListener('click', getname);
+btn2.addEventListener('mouseover', getemail);
+btn2.addEventListener('mouseout', getaddress);
+
+
+</script>
+
+</html>
