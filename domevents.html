@@ -115,6 +115,9 @@ const btn1 = document.getElementById('clickSix');
 const btn2 = document.getElementById('clicks');
 
 btn1.addEventListener('mouseover', getphone);
+document.getElementById("clickSix").addEventListener("mouseout", function() {
+  alert("Button Clicked!");
+});
 btn2.addEventListener('click', getname);
 btn2.addEventListener('mouseover', getemail);
 btn2.addEventListener('mouseout', getaddress);
