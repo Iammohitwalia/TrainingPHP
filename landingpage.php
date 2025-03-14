@@ -67,6 +67,7 @@
             </div>
           </div>
         </section>
+   <div class="b-example-divider"></div>
         <section>
           <div class="px-4 py-5 my-5 text-center">
             <div class="col-lg-6 mx-auto">
