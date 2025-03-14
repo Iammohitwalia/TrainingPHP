@@ -41,7 +41,7 @@
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Centered Hero</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <p class="lead mb-4 text-primary-emphasis">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
@@ -54,7 +54,7 @@
         <section>
           <div class="px-4 py-5 my-5 text-center">
             <div class="col-lg-6 mx-auto">
-              <h3 class="display-5  text-body-emphasis text-success-emphasis">Service</h3>
+              <h2 class="display-5 fw-bold text-body-emphasis lh-2 mb-3">Service</h2>
               <p class="lead mb-4 text-primary-emphasis">Bootstrap is a popular front-end framework for building responsive and mobile-first websites.
               <ul class="lead md-4 text-primary-emphasis">
                 <li>It provides pre-designed CSS, JavaScript components, and utility classes to quickly create modern and consistent user interfaces.</li>
@@ -71,7 +71,7 @@
         <section>
           <div class="px-4 py-5 my-5 text-center">
             <div class="col-lg-6 mx-auto">
-              <h3 class="display-5  text-body-emphasis text-success-emphasis">About</h3>
+              <h2 class="display-5 fw-bold text-body-emphasis lh-2 mb-3">About</h2>
               <p class="lead mb-4 text-primary-emphasis">Bootstrap also comes with several JavaScript components which do not require other libraries like jQuery. They provide additional user interface elements such as dialog boxes, tooltips, progress bars, navigation drop-downs, and carousels. Each Bootstrap component consists of an HTML structure, CSS declarations, and in some cases accompanying JavaScript code. They also extend the functionality of some existing interface elements, including for example an auto-complete function for input fields.</p>
             </div>
           </div>
